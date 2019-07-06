@@ -7,12 +7,16 @@
         <h1>Welcome to week 1</h1>
     </body>
     <script>
-        document.write("Name: " + "Matt Woodruff".bold());
-        document.write("</br>");
+        var name = "Matt Wooodruff"
         var age = 31;
+        var dob = 20;
+
+        document.write("Name: " + name.bold());
+        document.body.appendChild(document.createElement("br"));
+
         document.write("Age: " + age);   
-        document.write("</br>")
-        var dob = 0220;
+        document.body.appendChild(document.createElement("br"));
+
         var multiplier = 127;
         document.write("DOB(x127): " + dob * multiplier);
 
