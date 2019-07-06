@@ -7,25 +7,36 @@
         <h1>Welcome to week 1</h1>
     </body>
     <script>
-        var name = prompt("What is your name?")
-        var age = prompt("How old are you?");
-        var dob = 20;
-        var multiplier = 127;
+        // var name = prompt("What is your name?")
+        // var age = prompt("How old are you?");
+        // var dob = 20;
+        // var multiplier = 127;
 
-        document.write("Name: " + name.bold());
-        document.body.appendChild(document.createElement("br"));
+        // document.write("Name: " + name.bold());
+        // document.body.appendChild(document.createElement("br"));
 
-        document.write("Age: " + age);   
-        document.body.appendChild(document.createElement("br"));
+        // document.write("Age: " + age);   
+        // document.body.appendChild(document.createElement("br"));
 
-        document.write("DOB(x127): " + dob * multiplier);
+        // document.write("DOB(x127): " + dob * multiplier);
 
-        document.body.appendChild(document.createElement("br"));
+        // document.body.appendChild(document.createElement("br"));
 
-        var placeholder = (age >= 25 && age <= 55) ? 
-            document.write(name + " is just right!") : document.write(name + " aint right!");
+        // var placeholder = (age >= 25 && age <= 55) ? 
+        //     document.write(name + " is just right!") : 
+        //     document.write(name + " aint right!");
+        var number = 99;
 
-        
+        while(number != 0){
+            var num2 = number - 1;
+            document.write("<p>I've got " + number + 
+            " bottles of beer on the wall, " + number + 
+            " bottles of beer! Take one down and pass it around, " + (number--) +
+            " bottles of beer on the wall!</p>");
+            //number--;
+            document.body.appendChild(document.createElement("br"));
+            //prompt("You there?")
+        }
 
     </script>
 
