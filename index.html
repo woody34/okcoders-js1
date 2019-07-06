@@ -22,12 +22,8 @@
 
         document.body.appendChild(document.createElement("br"));
 
-        if(age >= 25 && age <= 55){
-            document.write(name + " is just right!")
-        }
-        else{
-            document.write(name + " aint right!")
-        }
+        var placeholder = (age >= 25 && age <= 55) ? 
+            document.write(name + " is just right!") : document.write(name + " aint right!");
 
         
 
