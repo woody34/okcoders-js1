@@ -7,9 +7,10 @@
         <h1>Welcome to week 1</h1>
     </body>
     <script>
-        var name = "Matt Wooodruff"
-        var age = 31;
+        var name = prompt("What is your name?")
+        var age = prompt("How old are you?");
         var dob = 20;
+        var multiplier = 127;
 
         document.write("Name: " + name.bold());
         document.body.appendChild(document.createElement("br"));
@@ -17,8 +18,18 @@
         document.write("Age: " + age);   
         document.body.appendChild(document.createElement("br"));
 
-        var multiplier = 127;
         document.write("DOB(x127): " + dob * multiplier);
+
+        document.body.appendChild(document.createElement("br"));
+
+        if(age >= 25 && age <= 55){
+            document.write(name + " is just right!")
+        }
+        else{
+            document.write(name + " aint right!")
+        }
+
+        
 
     </script>
 
